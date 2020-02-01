@@ -1,7 +1,7 @@
 <?php
 function db_connect(){
 	$db_user = "dnjstjq25";
-	$db_pass = "";
+	$db_pass = ""; //암호
 	$db_host = "localhost";
 	$db_name = "dnjstjq25";
 	$db_type = "mysql";
