@@ -1,0 +1,23 @@
+ .detail
+ {
+ 	width: 1080px;
+ 	height: 601px;
+ 	margin-left: -25px;
+ }
+
+ #view_title{margin-top: 20px; overflow: hidden; float:left; width: 100%; height: 600px; font-size:16px;}
+	 #view_img{margin : 0 auto; width: 100%; float: left; margin-bottom: 50px;}
+	 .view_content{width: 100%;margin-top: 20px; text-align: center;}
+
+.list_bt
+{
+	width:200px;
+	float: right;
+	
+}
+
+.list_bt a
+{
+	text-decoration: none;
+	color: #000;
+}

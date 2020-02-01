@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, maximum-scale"/>
+<html>
+<head>
+	<title>조은축산설비</title>
+	<link rel="stylesheet" href="./css/main.css"/> <!-- css파일 불러오기 -->
+	<script src="./js/slide.js"/></script> <!-- 메인화면 이미지 슬라이드 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> <!-- 메인화면 이미지 슬라이드 -->
+	<script src="./js/pdcss.js"></script> <!-- 제품소개 스크립트 -->
+	<style type="text/css"> 
+		@font-face{
+			font-family: 'Guide';
+			src: url(./fonts/NanumBarunGothic.ttf) format("truetype");
+		}
+	</style>  <!-- 안내폰트 -->
+</head>
+<body style="overflow-x:hidden">
+	<div id='wrap'>
+		<div id='top'> <!-- 메인화면 상단 -->
+			<div id='top_bar'>
+				<div id='logo'>  <!-- 로고 -->
+					<a href="index.html"><img src="./images/logo.PNG" alt></a>
+				</div>
+				<ul id='menu_list'> <!-- 메뉴바 -->
+					<li class="menu_main">
+						<a href="about_com.html"><h3>회사소개</h3></a>
+						<ul class="sub">
+							<li><a href="about_com.html">대표인사말</a></li> 
+							<li><a href="history.html">연혁</a></li>
+							<li><a href="maps.html">오시는길</a></li>
+						</ul>
+					</li>
+					<li class="menu_main">
+						<a class="link" href="product.html"><h3>제품소개</h3></a>
+						<ul class="sub">
+							<li><a href="product.html">자동급이시스템</a></li> 
+							<li><a href="fan.html">환기시스템</a></li>
+							<li><a href="etc.html">부품안내</a></li>
+						</ul>
+					</li>
+					<li class="menu_main">
+						<a class="link" href="notice.html"><h3>회사소식</h3></a>
+						<ul class="sub">
+							<li><a href="notice.html">공지사항</a></li> 
+							<li><a href="news.html">축산뉴스</a></li>
+						</ul>
+					</li>
+					<li class="menu_main">
+						<a class="link" href="service.html"><h3>고객센터</h3></a>
+						<ul class="sub">
+							<li><a href="service.html">자주묻는질문</a></li> 
+							<li><a href="online.html">온라인견적문의</a></li>
+						</ul>
+					</li>
+				</ul>
+				<div class="admin"> <?php include "./login_header.php";?> </div>
+			</div> 
+		</div>
+		<div id='banner' class="banner"> <!-- 메인화면 배너 -->
+			<ul>
+				<li>
+					<img src="./images/banner3.png" alt>
+					<dl id="banner_txt">
+						<dt>A/S의 최소화</dt>
+						<dd>초기 설치시에 완벽한 설치를 보장합니다</dd>
+						<dd>이제 사료 자동화의 편안함을 느껴보세요</dd>
+					</dl>
+				</li>
+				<li>
+					<img src="./images/banner2.png" alt>
+					<dl id="banner_txt">
+						<dt>휴무없는 A/S</dt>
+						<dd>A/S에는 휴무가 없습니다</dd>
+						<dd>언제든지 부르기만 하시면 됩니다</dd>
+					</dl>
+				</li>
+				<li>
+					<img src="./images/banner1.png" alt>
+					<dl id="banner_txt">
+						<dt>출장비 없는 A/S</dt>
+						<dd>A/S는 비용은 무료입니다</dd>
+						<dd>비용 걱정하지 마시고 불러주시면 됩니다</dd>
+					</dl>
+				</li>
+			</ul>
+		</div>
+		<div id='main'> <!-- 본문 -->
+			<section class="intro"> <!-- 회사소개 -->
+				<div id='about'>
+					<h3>ABOUT 조은축산설비</h3>
+					<h5>축산 업계의 혁신, 조은축산설비를 소개합니다.</h5>
+				</div>
+				<ul>
+					<li>
+						<a class="about_com" href="about_com.html"><img src="./images/company.jpg" alt="회사소개" width="320px" height="330px"></a>
+						<div class="about_com_txt"><h4>회사소개</h4><p>더 편한 가축 농가</p></div>
+					</li>
+					<li>
+						<a class="about_com" href="product.html"><img src="./images/product.jpg" alt="제품소개" width="320px" height="330px"></a>
+						<div class="about_com_txt"><h4>제품소개</h4><p>최고의 품질 보장</p></div>
+					</li>
+					<li>
+						<a class="about_com" href="service.html"><img src="./images/customer.jpg" alt="고객센터" width="320px" height="330px"></a>
+						<div class="about_com_txt"><h4>고객센터</h4><p>최상의 고객 서비스</p></div>
+					</li>
+				</ul>
+			</section>
+
+			<section class="product"> <!-- 제품소개 -->
+				<div id='about'>
+					<h3>제품소개</h3>
+					<h5>조은축산설비는 자동급이시스템, 환기시스템, 여러 부품을 설치 및 판매합니다.</h5>
+				</div>
+				<ul class = "pr_img">
+					<li>	
+						<img src="./images/automachine.jpg" alt="자동급이시스템" width="280px" height="330px">
+						<dl>
+							<dt>자동급이시스템</dt>
+							<dd></dd>
+						</dl>
+					</li>
+					<li>	
+						<img src="./images/fan.jpg" alt="환기시스템" width="280px" height="330px">
+						<dl>
+							<dt>환기시스템</dt>
+							<dd></dd>
+						</dl>
+					</li>
+					<li>	
+						<img src="./images/etc.png" alt="부품" width="280px" height="330px">
+						<dl>
+							<dt>부품안내</dt>
+							<dd></dd>
+						</dl>
+					</li>
+				</ul>	
+						<dl class="info">
+							<dt>자동급이시스템</dt>
+							<dd>조은축산설비는 소, 닭, 돼지, 오리, 염소, 사슴 농가의 사료 자동급이시스템을 설치 및 관리하고 있습니다.<br>
+							 <a href="./product.html">MORE</a></dd>
+							<dt>환기시스템</dt>
+							<dd>조은축산설비는 각종 환기시스템과 쿨링패드 등을 이용하여 쾌적한 축사환경을 제공합니다.
+							<br>
+							 <a href="./fan.html">MORE</a></dd>
+							<dt>부품안내</dt>
+							<dd>조은축산설비는 축사시스템에 필요한 부품을 별도로 판매하고 있습니다.
+							<br>
+							 <a href="./etc.html">MORE</a></dd>
+							
+						</dl>
+			</section>
+			
+			<section class="news">
+				<div id="about">
+					<h3>축산뉴스</h3>
+					<h5>축산업계의 뉴스를 전달합니다.</h5>	
+				</div>
+				<div class="news_m">
+					<?php include "./news.php";?>
+				</div>
+			</section>
+
+			<section class="service">
+				<h1>조은축산설비는 항상 고객님을 기다립니다.</h1>
+				<div class="call">
+					<img src="./images/call.png" width="129px" height="129px">
+				</div>
+				<div class="call_txt">
+					<h4>TEL : 041.585.8855~6</h4> 
+					<h4>FAX : 041.585.8854</h4> 
+				</div>
+								
+				<div class="online">
+					<img src="./images/online.png" width="230px" height="170px">
+				</div>
+				<div class="online_txt">
+					<a href="online.html"><h4>온라인견적문의<br>바로가기</h4></a>
+				</div>			
+			</section>
+		</div>
+	</div>
+	<footer class="footer"> <!-- 메인화면 하단 -->
+		<div class="copy">
+			<p>상호명 : 조은축산설비 | 대표 : 이상은 | 사업자등록번호 : 312-26-69708 | 소재지 : 충남 천안시 서북구 성환읍 홍경길 29 (대홍리)</p>
+			<p>TEL: 041-585-8855 | FAX : 041-585-8854 | E-mail : joeun8797@naver.com</p>
+			<p>Copyright @ 2015 by 조은축산설비. All Rights Rerseved</p>
+		</div>
+	</footer>
+</body>
+</html>

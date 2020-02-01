@@ -1,0 +1,35 @@
+form 
+{
+	height: 480px;
+	font-family: 'Guide';
+	color: red;
+	font-size: 24px;
+}
+
+.login_box
+{
+	margin-top: 120px;
+}
+
+.login_id
+{
+	width: 250px;
+	height: 30px;
+}
+
+.login_pw
+{
+	margin-top: 10px;
+	width: 250px;
+	height: 30px;
+}
+
+.login_sb
+{
+	margin-top: 10px;
+	width: 255px;
+	height: 40px;
+	background-color: #000;
+	color: #fff;
+	border: none;
+}
